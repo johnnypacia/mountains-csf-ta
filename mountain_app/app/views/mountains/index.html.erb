@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mountain Data</title>
+</head>
+<body>
+	<div>
+		<h1>Mountain Data</h1>
+	</div>
+	<% @mountains.each do |mountain| %>
+	<div id="mountain-container">
+			<h3><%= mountain.name %></h3>
+			<p>ID: 00<%= mountain.id %></p>
+			<p>Continent: <%= mountain.continent %></p>
+			<p>Elevation: <%= mountain.elevation %></p>
+	</div>
+	<% end %>
+</body>
+</html>
