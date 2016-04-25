@@ -5,15 +5,18 @@
 </head>
 <body>
 	<div>
-		<h1>Mountain Data</h1>
+	
 	</div>
-	<% @mountains.each do |mountain| %>
-	<div id="mountain-container">
-			<h3><%= mountain.name %></h3>
+	<div id="mountain-container" class="grid-full">
+		<h1>CSF-TA Mountain Data</h1>
+		<% @mountains.each do |mountain| %>
+		<div id="mountain-text" class="grid-4-8">
+			<h3 ><%= mountain.name %></h3>
 			<p>ID: 00<%= mountain.id %></p>
 			<p>Continent: <%= mountain.continent %></p>
-			<p>Elevation: <%= mountain.elevation %></p>
+			<p>Elevation (meters): <%= mountain.elevation %></p>
+		</div>
+		<% end %>
 	</div>
-	<% end %>
 </body>
 </html>
