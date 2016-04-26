@@ -1,0 +1,170 @@
+/* line 1, /Users/AppleScruffs/code/mountain_app/app/assets/stylesheets/grid.css.scss */
+.wrapper {
+  display: flex;
+}
+
+/* line 6, /Users/AppleScruffs/code/mountain_app/app/assets/stylesheets/grid.css.scss */
+.grid-full {
+  width: 100%;
+}
+
+/* line 10, /Users/AppleScruffs/code/mountain_app/app/assets/stylesheets/grid.css.scss */
+.grid-1-8 {
+  width: 12.5%;
+}
+
+/* line 13, /Users/AppleScruffs/code/mountain_app/app/assets/stylesheets/grid.css.scss */
+.grid-2-8 {
+  width: 25%;
+}
+
+/* line 16, /Users/AppleScruffs/code/mountain_app/app/assets/stylesheets/grid.css.scss */
+.grid-3-8 {
+  width: 37.5%;
+}
+
+/* line 19, /Users/AppleScruffs/code/mountain_app/app/assets/stylesheets/grid.css.scss */
+.grid-4-8 {
+  width: 50%;
+}
+
+/* line 22, /Users/AppleScruffs/code/mountain_app/app/assets/stylesheets/grid.css.scss */
+.grid-5-8 {
+  width: 62.5%;
+}
+
+/* line 25, /Users/AppleScruffs/code/mountain_app/app/assets/stylesheets/grid.css.scss */
+.grid-6-8 {
+  width: 75%;
+}
+
+/* line 28, /Users/AppleScruffs/code/mountain_app/app/assets/stylesheets/grid.css.scss */
+.grid-7-8 {
+  width: 87.5%;
+}
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+/* line 4, /Users/AppleScruffs/code/mountain_app/app/assets/stylesheets/layout.css.scss */
+body {
+  background: orange;
+  font-family: Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+/* line 10, /Users/AppleScruffs/code/mountain_app/app/assets/stylesheets/layout.css.scss */
+h1 {
+  font-size: 50px;
+  font-family: 'Poiret One', cursive;
+}
+
+/* line 15, /Users/AppleScruffs/code/mountain_app/app/assets/stylesheets/layout.css.scss */
+#mountain-container {
+  text-align: center;
+}
+
+/* line 20, /Users/AppleScruffs/code/mountain_app/app/assets/stylesheets/layout.css.scss */
+#mountain-text {
+  border: solid 1px black;
+  position: relative;
+  width: 30%;
+  margin: 0 auto;
+  padding: 7px 9px 6px 10px;
+}
+
+/* line 28, /Users/AppleScruffs/code/mountain_app/app/assets/stylesheets/layout.css.scss */
+#mountain-text:hover {
+  background: #ffffff;
+  text-decoration: none;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+/* line 4, /Users/AppleScruffs/code/mountain_app/app/assets/stylesheets/layout.css.scss */
+body {
+  background: orange;
+  font-family: Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+/* line 10, /Users/AppleScruffs/code/mountain_app/app/assets/stylesheets/layout.css.scss */
+h1 {
+  font-size: 50px;
+  font-family: 'Poiret One', cursive;
+}
+
+/* line 15, /Users/AppleScruffs/code/mountain_app/app/assets/stylesheets/layout.css.scss */
+#mountain-container {
+  text-align: center;
+}
+
+/* line 20, /Users/AppleScruffs/code/mountain_app/app/assets/stylesheets/layout.css.scss */
+#mountain-text {
+  border: solid 1px black;
+  position: relative;
+  width: 30%;
+  margin: 0 auto;
+  padding: 7px 9px 6px 10px;
+}
+
+/* line 28, /Users/AppleScruffs/code/mountain_app/app/assets/stylesheets/layout.css.scss */
+#mountain-text:hover {
+  background: #ffffff;
+  text-decoration: none;
+}
+
+/* line 1, /Users/AppleScruffs/code/mountain_app/app/assets/stylesheets/grid.css.scss */
+.wrapper {
+  display: flex;
+}
+
+/* line 6, /Users/AppleScruffs/code/mountain_app/app/assets/stylesheets/grid.css.scss */
+.grid-full {
+  width: 100%;
+}
+
+/* line 10, /Users/AppleScruffs/code/mountain_app/app/assets/stylesheets/grid.css.scss */
+.grid-1-8 {
+  width: 12.5%;
+}
+
+/* line 13, /Users/AppleScruffs/code/mountain_app/app/assets/stylesheets/grid.css.scss */
+.grid-2-8 {
+  width: 25%;
+}
+
+/* line 16, /Users/AppleScruffs/code/mountain_app/app/assets/stylesheets/grid.css.scss */
+.grid-3-8 {
+  width: 37.5%;
+}
+
+/* line 19, /Users/AppleScruffs/code/mountain_app/app/assets/stylesheets/grid.css.scss */
+.grid-4-8 {
+  width: 50%;
+}
+
+/* line 22, /Users/AppleScruffs/code/mountain_app/app/assets/stylesheets/grid.css.scss */
+.grid-5-8 {
+  width: 62.5%;
+}
+
+/* line 25, /Users/AppleScruffs/code/mountain_app/app/assets/stylesheets/grid.css.scss */
+.grid-6-8 {
+  width: 75%;
+}
+
+/* line 28, /Users/AppleScruffs/code/mountain_app/app/assets/stylesheets/grid.css.scss */
+.grid-7-8 {
+  width: 87.5%;
+}
